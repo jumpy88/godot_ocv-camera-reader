@@ -7,8 +7,10 @@ reloadable=true
 
 [entry]
 
-X11.64="res://bin/lib/libocvcr.so"
+Android.arm64-v8a="res://bin/lib/android/arm64-v8a/libocvcr.so"
+X11.64="res://bin/lib/linux/x86_64/libocvcr.so"
 
 [dependencies]
 
+Android.arm64-v8a=[ "res://bin/lib/android/arm64-v8a/dependencies/libopencv_java4.so" ]
 X11.64=[  ]
